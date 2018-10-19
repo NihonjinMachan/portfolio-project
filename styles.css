@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    background: #000; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.video-container{
+    position: relative;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    transform: scale(1.25);
+    object-fit: cover;
+}
+
+.video-overlay{
+    background: rgba(0,0,0,0);
+    position: absolute;
+    margin-top: -150px;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7em;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2.75em; 
+    text-align: center;
+    vertical-align: middle; 
+    margin-top: -30px; 
+}
+
+button{
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,0);
+    border: solid 1px white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+html{
+    background: url('images/laMerbldgMasked.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.fullBackground {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+*/
+
